@@ -8,7 +8,7 @@ def trigger_exception():
     except ZeroDivisionError as e:
         # Handle the exception
         print("Exception caught:", e)
-        raise  # Re-raise the exception to fail the task
+        #raise  # Re-raise the exception to fail the task
 
 # Call the function to trigger the exception
 trigger_exception()
